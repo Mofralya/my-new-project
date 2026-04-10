@@ -37,10 +37,61 @@
 
     .header__menu {
         display: flex;
+        align-items: center;
     }
 
     .header__social {
         text-decoration: none;
+        font-size: var(--size-lg);
+        color: var(--clr-slate50);
+        padding: 0.5rem;
+        border-radius: 6px;
+        transition: background-color 0.3s;
+        line-height: 0;
+    }
+
+    .header__social:hover {
+        background-color: var(--clr-slate800);
+    }
+
+    .header__separator {
+        border: 1px solid var(--clr-slate800);
+        padding-top: 1.5rem;
+    }
+
+    .header__sign-in-btn {
+        font-family: var(--font-secondary);
+        font-size: var(--size-xs);
+        color: var(--clr-text);
+        text-decoration: none;
+        font-weight: 700;
+        transition: color 0.3s;
+    }
+
+    .header__sign-in-btn:hover {
+        color: var(--slate300);
+    }
+
+    .header__enter-app-btn {
+        font-size: var(--size-xs);
+        /* center arrow icon horizontally and vertically within the flow this using flex */
+        /* display: flex !important;
+        align-items: center;
+        gap: 0.25rem; */
+    }
+
+    .header__enter-app-btn__arrow {
+        /* center arrow icon horizontally and vertically within the flow this using inline */
+        display: inline;
+        vertical-align: middle;
+        margin-left: 0.25rem;
+        width: 1em;
+    }
+
+    .header__social-container {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
     }
 }
 
