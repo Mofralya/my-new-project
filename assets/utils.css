@@ -29,17 +29,18 @@
 /* button */
 .btn {
     display: inline-block;
-    background-color: black;
-    color: white;
+    background-color: var(--clr-slate50);
+    color: var(--clr-dark);
     padding: 0.5em 1em;
     font-weight: 500;
     border-radius: 6px;
     line-height: 1.75rem;
     text-decoration: none;
+    transition: background-color 0.3s;
 }
 
 .btn:hover {
-    background-color: red;
+    background-color: var(--clr-slate100);
 }
 
 .btn:focus-visible {
