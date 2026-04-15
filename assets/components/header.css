@@ -123,7 +123,28 @@
 }
 
 /* XL */
-/* @media (min-width: 1280px) {} */
+@media (min-width: 1280px) {
+    .header__logo {
+        width: var(--size-8xl);
+        height: var(--size-8xl);
+    }
+
+    .header__title {
+        font-size: var(--size-2xl);
+    }
+
+    .header__social {
+        font-size: var(--size-xl);
+    }
+
+    .header__sign-in-btn {
+        font-size: var(--size-sm);
+    }
+
+    .header__enter-app-btn {
+        font-size: var(--size-sm);
+    }
+}
 
 /* 2XL */
 /* @media (min-width: 1536px) {} */
