@@ -20,8 +20,8 @@
 }
 
 .header__menu {
-        display: none;
-    }
+    display: none;
+}
 
 .header__title {
     display: none;
@@ -107,6 +107,7 @@
         align-items: center;
         gap: 1rem;
     }
+
     /* second option */
     /* .header__logo {
         display: inline;
@@ -117,8 +118,8 @@
         display: block;
         font-family: var(--font-secondary);
         font-size: var(--size-xl);
-        font-weight: 700; 
-        text-transform:uppercase;
+        font-weight: 700;
+        text-transform: uppercase;
         letter-spacing: 0.1em;
     }
 }
