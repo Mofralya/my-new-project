@@ -1,4 +1,4 @@
-.about__item1 > * + * {
+.about__item1>*+* {
     margin-top: 1rem;
 }
 
@@ -25,6 +25,7 @@
     margin-left: 0.25rem;
     vertical-align: middle;
 }
+
 
 /* MOBILE FIRST */
 
