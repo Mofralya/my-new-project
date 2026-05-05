@@ -1,3 +1,7 @@
+.about__item1 {
+    margin-bottom: 2rem;
+}
+
 .about__item1>*+* {
     margin-top: 1rem;
 }
@@ -26,11 +30,57 @@
     vertical-align: middle;
 }
 
+.about__item2>*+* {
+    margin-top: 2rem;
+}
+
+.about__label {
+    color: var(--clr-text);
+    font-family: var(--font-secondary);
+    font-size: var(--size-xs);
+    font-weight: 400;
+}
+
+.about__stat {
+    font-size: var(--size-3xl);
+    color: var(--clr-light);
+    font-weight: 700;
+    line-height: 1;
+}
+
+.about__stat-span {
+    color: var(--clr-muted);
+}
+
 
 /* MOBILE FIRST */
 
 /* XS */
-/* @media (min-width: 475px) {} */
+@media (min-width: 475px) {
+    .about__title {
+        font-size: var(--size-3xl);
+    }
+
+    .about__description1 {
+        font-size: var(--size-base);
+    }
+
+    .about__description2 {
+        font-size: var(--size-base);
+    }
+
+    .about__btn {
+        font-size: var(--size-base);
+    }
+
+    .about__label {
+        font-size: var(--size-sm);
+    }
+
+    .about__stat {
+        font-size: var(--size-3xl);
+    }
+}
 
 /* SM */
 /* @media (min-width: 640px) {} */
@@ -39,10 +89,103 @@
 /* @media (min-width: 768px) {} */
 
 /* LG */
-/* @media (min-width: 1024px) {} */
+@media (min-width: 1024px) {
+    .about__description1 {
+        max-width: 50ch;
+    }
+
+    .about__description2 {
+        max-width: 50ch;
+    }
+
+    .about__item1 {
+        margin-bottom: 0;
+    }
+
+    .about__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about__label {
+        text-align: end;
+    }
+
+    .about__stat {
+        text-align: end;
+    }
+
+    .about__item1>*+* {
+        margin-top: 1.5rem;
+    }
+
+    .about__item2>*+* {
+        margin-top: 2.5rem;
+    }
+}
 
 /* XL */
-/* @media (min-width: 1280px) {} */
+@media (min-width: 1280px) {
+    .about__description1 {
+        max-width: 60ch;
+    }
+
+    .about__description2 {
+        max-width: 60ch;
+    }
+
+
+    .about__item1 {
+        margin-bottom: 0;
+    }
+
+    .about__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about__title {
+        font-size: var(--size-4xl);
+    }
+
+    .about__description1 {
+        font-size: var(--size-lg);
+    }
+
+    .about__description2 {
+        font-size: var(--size-lg);
+    }
+
+    .about__btn {
+        font-size: var(--size-lg);
+    }
+
+    .about__label {
+        font-size: var(--size-base);
+        text-align: end;
+    }
+
+    .about__stat {
+        font-size: var(--size-4xl);
+        text-align: end;
+    }
+
+    .about__item1>*+* {
+        margin-top: 2rem;
+    }
+
+    .about__item2>*+* {
+        margin-top: 3rem;
+    }
+}
 
 /* 2XL */
-/* @media (min-width: 1536px) {} */
+@media (min-width: 1536px) {
+    .about__description1 {
+        max-width: 70ch;
+    }
+
+    .about__description2 {
+        max-width: 70ch;
+    }
+}
